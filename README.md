@@ -1,2 +1,2 @@
-# Mohamed-Said-Kaba-Portfolio
-Portfolio Civil &amp; Structure Engineer
+# Mohamed Said Kaba Portfolio
+Portfolio Civil & ; Structure Engineer
