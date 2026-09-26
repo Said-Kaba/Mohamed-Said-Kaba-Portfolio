@@ -1,13 +1,10 @@
 # Portfolio — Mohamed Said Kaba
 
-Site statique (HTML/CSS/JS, sans build) bilingue FR/EN. Tout le contenu est dans `content/*.json`, le code n'a pas besoin d'être touché pour mettre le site à jour.
+Site statique (HTML/CSS/JS, sans build) bilingue FR/EN. Tout le contenu est dans `content/*.js`, le code n'a pas besoin d'être touché pour mettre le site à jour.
 
 ## Aperçu en local
 
-```
-python -m http.server 8000
-```
-puis ouvrir http://localhost:8000 (le double-clic sur `index.html` ne marche pas : les fichiers JSON sont chargés par le navigateur).
+Double-cliquer sur `index.html` suffit (aucun serveur nécessaire).
 
 ## Mettre à jour le contenu
 
@@ -15,12 +12,12 @@ Chaque texte est un objet bilingue `{ "fr": "...", "en": "..." }`.
 
 | Je veux... | Fichier |
 |---|---|
-| Ajouter une réalisation / un projet | `content/projects.json` → copier un bloc dans `items` |
-| Ajouter un outil ou une démo | `content/tools.json` → nouveau bloc dans `items` ; démo : `"media": { "type": "image" ou "video", "src": "assets/media/xxx.gif" }` |
-| Modifier profil, chiffres clés, parcours | `content/profile.json` |
-| Compétences, formations, certifications | `content/skills.json`, `content/education.json` |
-| Coordonnées, libellés, ordre des sections | `content/site.json` |
-| Activer la section Vidéos / YouTube (phase 2) | `content/videos.json` → `"enabled": true` et retirer `"enabled": false` de la section `videos` dans `content/site.json` |
+| Ajouter une réalisation / un projet | `content/projects.js` → copier un bloc dans `items` |
+| Ajouter un outil ou une démo | `content/tools.js` → nouveau bloc dans `items` ; démo : `"media": { "type": "image" ou "video", "src": "assets/media/xxx.gif" }` |
+| Modifier profil, chiffres clés, parcours | `content/profile.js` |
+| Compétences, formations, certifications | `content/skills.js`, `content/education.js` |
+| Coordonnées, libellés, ordre des sections | `content/site.js` |
+| Activer la section Vidéos / YouTube (phase 2) | `content/videos.js` → `"enabled": true` et retirer `"enabled": false` de la section `videos` dans `content/site.js` |
 | Afficher le bouton CV | déposer les PDF dans `cv/` (voir `cv/README.md`) |
 
 Les images et démos vont dans `assets/media/` (à créer).

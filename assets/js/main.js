@@ -1,5 +1,5 @@
 /* Portfolio — Mohamed Said Kaba
- * Tout le contenu vit dans /content/*.json (textes bilingues {fr, en}).
+ * Tout le contenu vit dans /content/*.js (textes bilingues {fr, en}).
  * Ce fichier ne fait que les afficher. Voir README.md pour ajouter un projet ou un outil.
  */
 (function () {
@@ -239,16 +239,14 @@
 
   function init() {
     lang = pickInitialLang();
-    Promise.all(FILES.map(function (f) { return fetch('content/' + f + '.json').then(function (r) { if (!r.ok) throw new Error(f); return r.json(); }); }))
-      .then(function (arr) {
-        FILES.forEach(function (f, i) { D[f] = arr[i]; });
-        render();
-        observeNav();
-        if (location.hash) { var h = document.querySelector(location.hash); if (h) h.scrollIntoView(); }
-      })
-      .catch(function (e) {
-        document.getElementById('app').innerHTML = '<p class="wrap" style="padding:4rem 0">Impossible de charger le contenu (' + e.message + '). Si vous ouvrez le fichier directement, lancez un petit serveur local : <code>python -m http.server</code>.</p>';
-      });
+    try {
+      FILES.forEach(function (f) { if (!window.SITE || !window.SITE[f]) throw new Error('content/' + f + '.js'); D[f] = window.SITE[f]; });
+      render();
+      observeNav();
+      if (location.hash) { var h = document.querySelector(location.hash); if (h) h.scrollIntoView(); }
+    } catch (e) {
+      document.getElementById('app').innerHTML = '<p class="wrap" style="padding:4rem 0">Impossible de charger le contenu (' + e.message + ').</p>';
+    }
     document.querySelectorAll('.lang button').forEach(function (b) { b.addEventListener('click', function () { setLang(b.dataset.lang); }); });
     var burger = document.getElementById('burger'), nav = document.getElementById('nav');
     burger.addEventListener('click', function () { var o = nav.classList.toggle('open'); burger.setAttribute('aria-expanded', String(o)); });

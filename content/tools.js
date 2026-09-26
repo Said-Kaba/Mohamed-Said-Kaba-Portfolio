@@ -1,53 +1,101 @@
-{
+// Contenu : tools. Modifiez les textes entre guillemets ; gardez la structure.
+window.SITE = window.SITE || {};
+window.SITE.tools = {
   "intro": {
     "fr": "Je ne me contente pas de produire des livrables : je développe les outils qui font gagner du temps et fiabilisent le travail de toute une équipe. Les démonstrations sont ajoutées au fur et à mesure.",
     "en": "I do not just produce deliverables: I build the tools that save time and make a whole team's work more reliable. Demos are added as they are recorded."
   },
   "items": [
     {
-      "org": { "fr": "Cap Ingénierie International", "en": "Cap Ingénierie International" },
-      "name": { "fr": "Outil de ferraillage des voiles et d'injection des efforts réduits", "en": "Shear wall reinforcement and reduced-forces injection tool" },
+      "org": {
+        "fr": "Cap Ingénierie International",
+        "en": "Cap Ingénierie International"
+      },
+      "name": {
+        "fr": "Outil de ferraillage des voiles et d'injection des efforts réduits",
+        "en": "Shear wall reinforcement and reduced-forces injection tool"
+      },
       "summary": {
         "fr": "Application Excel/VBA qui injecte automatiquement les efforts réduits (N, M, H) dans le module de conception béton armé de Robot Structural Analysis, avec une logique de sélection des cas de charge dimensionnants.",
         "en": "Excel/VBA application that automatically injects reduced forces (N, M, H) into the reinforced concrete design module of Robot Structural Analysis, with logic for selecting the governing load cases."
       },
       "points": {
-        "fr": ["Réduit les remarques du bureau de contrôle sur les documents produits par l'équipe."],
-        "en": ["Reduces control-office comments on the documents produced by the team."]
+        "fr": [
+          "Réduit les remarques du bureau de contrôle sur les documents produits par l'équipe."
+        ],
+        "en": [
+          "Reduces control-office comments on the documents produced by the team."
+        ]
       },
-      "stack": ["Excel", "VBA", "Robot Structural Analysis"],
+      "stack": [
+        "Excel",
+        "VBA",
+        "Robot Structural Analysis"
+      ],
       "media": null
     },
     {
-      "org": { "fr": "JESA", "en": "JESA" },
-      "name": { "fr": "Outil paramétrique J-EMS — fondations annulaires de réservoirs", "en": "J-EMS parametric tool — annular tank foundations" },
-      "badge": { "fr": "Cas pilote J-EMS", "en": "J-EMS pilot case" },
+      "org": {
+        "fr": "JESA",
+        "en": "JESA"
+      },
+      "name": {
+        "fr": "Outil paramétrique J-EMS — fondations annulaires de réservoirs",
+        "en": "J-EMS parametric tool — annular tank foundations"
+      },
+      "badge": {
+        "fr": "Cas pilote J-EMS",
+        "en": "J-EMS pilot case"
+      },
       "summary": {
         "fr": "Calcul automatisé des fondations annulaires de réservoirs de stockage d'acide sulfurique et phosphorique, retenu comme cas pilote de la démarche de standardisation interne J-EMS (JESA Engineering Modular System).",
         "en": "Automated design of annular foundations for sulphuric and phosphoric acid storage tanks, selected as the pilot case of JESA's internal standardisation initiative J-EMS (JESA Engineering Modular System)."
       },
-      "stack": ["Dynamo", "Python", "API Robot Structural Analysis"],
+      "stack": [
+        "Dynamo",
+        "Python",
+        "API Robot Structural Analysis"
+      ],
       "media": null
     },
     {
-      "org": { "fr": "JESA", "en": "JESA" },
-      "name": { "fr": "JESA Takeoffs — extraction automatique des quantités", "en": "JESA Takeoffs — automated quantity extraction" },
+      "org": {
+        "fr": "JESA",
+        "en": "JESA"
+      },
+      "name": {
+        "fr": "JESA Takeoffs — extraction automatique des quantités",
+        "en": "JESA Takeoffs — automated quantity extraction"
+      },
       "summary": {
         "fr": "Plug-in Revit d'extraction automatique des quantités depuis la maquette BIM, au service des métrés et du chiffrage. Né de mon projet de fin d'études et poursuivi par JESA comme initiative interne.",
         "en": "Revit plug-in that automatically extracts quantities from the BIM model for take-offs and cost estimation. Born from my final-year project and continued by JESA as an internal initiative."
       },
-      "stack": ["Revit API", "Python", "BIM 5D"],
+      "stack": [
+        "Revit API",
+        "Python",
+        "BIM 5D"
+      ],
       "media": null
     },
     {
-      "org": { "fr": "JESA", "en": "JESA" },
-      "name": { "fr": "J-Bid — plateforme de gestion des appels d'offres", "en": "J-Bid — bid management platform" },
+      "org": {
+        "fr": "JESA",
+        "en": "JESA"
+      },
+      "name": {
+        "fr": "J-Bid — plateforme de gestion des appels d'offres",
+        "en": "J-Bid — bid management platform"
+      },
       "summary": {
         "fr": "Contribution au développement de la plateforme numérique interne de gestion et d'analyse des appels d'offres (JESA Bid Analysis Platform).",
         "en": "Contribution to the development of JESA's internal digital platform for managing and analysing tenders (JESA Bid Analysis Platform)."
       },
-      "stack": ["ITB / TBE", "Plateforme numérique"],
+      "stack": [
+        "ITB / TBE",
+        "Plateforme numérique"
+      ],
       "media": null
     }
   ]
-}
+};

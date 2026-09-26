@@ -1,4 +1,6 @@
-{
+// Contenu : profile. Modifiez les textes entre guillemets ; gardez la structure.
+window.SITE = window.SITE || {};
+window.SITE.profile = {
   "role": {
     "fr": "Ingénieur d'État en Génie Civil et Structures · BIM & Automatisation",
     "en": "Civil & Structural Engineer · BIM & Automation"
@@ -8,10 +10,34 @@
     "en": "I design reinforced concrete and steel structures, and I build the tools that make deliverables more reliable and save the whole team time."
   },
   "stats": [
-    { "value": "2", "label": { "fr": "ans chez JESA (OCP / Worley)", "en": "years at JESA (OCP / Worley)" } },
-    { "value": "50+", "label": { "fr": "plans d'exécution et notes de calcul suivis", "en": "execution drawings and calculation notes handled" } },
-    { "value": "15+", "label": { "fr": "structures industrielles étudiées", "en": "industrial structures designed" } },
-    { "value": "4", "label": { "fr": "initiatives digitales JESA", "en": "JESA digital initiatives" } }
+    {
+      "value": "2",
+      "label": {
+        "fr": "ans chez JESA (OCP / Worley)",
+        "en": "years at JESA (OCP / Worley)"
+      }
+    },
+    {
+      "value": "50+",
+      "label": {
+        "fr": "plans d'exécution et notes de calcul suivis",
+        "en": "execution drawings and calculation notes handled"
+      }
+    },
+    {
+      "value": "15+",
+      "label": {
+        "fr": "structures industrielles étudiées",
+        "en": "industrial structures designed"
+      }
+    },
+    {
+      "value": "4",
+      "label": {
+        "fr": "initiatives digitales JESA",
+        "en": "JESA digital initiatives"
+      }
+    }
   ],
   "about": {
     "fr": [
@@ -29,24 +55,60 @@
   },
   "timeline": [
     {
-      "when": { "fr": "2019 – 2021", "en": "2019 – 2021" },
-      "what": { "fr": "Classes préparatoires scientifiques (MP)", "en": "Preparatory classes (MP)" },
-      "where": { "fr": "Lycée Réda Slaoui, Agadir", "en": "Lycée Réda Slaoui, Agadir" }
+      "when": {
+        "fr": "2019 – 2021",
+        "en": "2019 – 2021"
+      },
+      "what": {
+        "fr": "Classes préparatoires scientifiques (MP)",
+        "en": "Preparatory classes (MP)"
+      },
+      "where": {
+        "fr": "Lycée Réda Slaoui, Agadir",
+        "en": "Lycée Réda Slaoui, Agadir"
+      }
     },
     {
-      "when": { "fr": "2021 – 2024", "en": "2021 – 2024" },
-      "what": { "fr": "Ingénieur d'État en Génie Civil", "en": "State Engineering Degree in Civil Engineering" },
-      "where": { "fr": "École Mohammadia d'Ingénieurs, Rabat · stages BET Planète Études, TGCC, ADM · PFE chez JESA", "en": "École Mohammadia d'Ingénieurs, Rabat · internships at BET Planète Études, TGCC, ADM · final project at JESA" }
+      "when": {
+        "fr": "2021 – 2024",
+        "en": "2021 – 2024"
+      },
+      "what": {
+        "fr": "Ingénieur d'État en Génie Civil",
+        "en": "State Engineering Degree in Civil Engineering"
+      },
+      "where": {
+        "fr": "École Mohammadia d'Ingénieurs, Rabat · stages BET Planète Études, TGCC, ADM · PFE chez JESA",
+        "en": "École Mohammadia d'Ingénieurs, Rabat · internships at BET Planète Études, TGCC, ADM · final project at JESA"
+      }
     },
     {
-      "when": { "fr": "Août 2024 – Juillet 2026", "en": "Aug 2024 – Jul 2026" },
-      "what": { "fr": "Civil & Structural Engineer, JESA", "en": "Civil & Structural Engineer, JESA" },
-      "where": { "fr": "Casablanca · grands projets industriels du Groupe OCP", "en": "Casablanca · major OCP Group industrial projects" }
+      "when": {
+        "fr": "Août 2024 – Juillet 2026",
+        "en": "Aug 2024 – Jul 2026"
+      },
+      "what": {
+        "fr": "Civil & Structural Engineer, JESA",
+        "en": "Civil & Structural Engineer, JESA"
+      },
+      "where": {
+        "fr": "Casablanca · grands projets industriels du Groupe OCP",
+        "en": "Casablanca · major OCP Group industrial projects"
+      }
     },
     {
-      "when": { "fr": "Depuis septembre 2026", "en": "Since September 2026" },
-      "what": { "fr": "Ingénieur Chargé d'Études, Cap Ingénierie International", "en": "Design Engineer, Cap Ingénierie International" },
-      "where": { "fr": "Médina Royal Mansour, Marrakech", "en": "Medina Royal Mansour, Marrakech" }
+      "when": {
+        "fr": "Depuis septembre 2026",
+        "en": "Since September 2026"
+      },
+      "what": {
+        "fr": "Ingénieur Chargé d'Études, Cap Ingénierie International",
+        "en": "Design Engineer, Cap Ingénierie International"
+      },
+      "where": {
+        "fr": "Médina Royal Mansour, Marrakech",
+        "en": "Medina Royal Mansour, Marrakech"
+      }
     }
   ]
-}
+};
