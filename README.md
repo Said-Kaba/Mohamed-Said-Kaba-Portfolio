@@ -26,7 +26,7 @@ Les images et démos vont dans `assets/media/` (à créer).
 
 Le workflow `.github/workflows/pages.yml` publie le site à chaque push sur `main`.
 À faire une seule fois : dépôt GitHub → Settings → Pages → Source : **GitHub Actions**.
-Adresse : https://said-kaba.github.io/Mohamed-Said-Kaba-Portfolio/
+Adresse : https://mohamed-said-kaba.github.io/EngPortfolio/
 
 ## Règle de rédaction
 
