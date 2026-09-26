@@ -206,7 +206,6 @@
     document.querySelectorAll('.lang button').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.lang === lang)); });
     document.getElementById('footer-text').textContent = '© ' + new Date().getFullYear() + ' ' + S.name + ' — ' + t(S.ui.footer);
     document.getElementById('footer-top').textContent = t(S.ui.top) + ' ↑';
-    document.title = S.name + ' — ' + t(D.profile.role);
     checkCv();
   }
 
