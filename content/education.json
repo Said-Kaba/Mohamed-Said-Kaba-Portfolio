@@ -1,0 +1,55 @@
+{
+  "degrees": [
+    {
+      "title": { "fr": "Diplôme d'Ingénieur d'État en Génie Civil", "en": "State Engineering Degree in Civil Engineering" },
+      "school": { "fr": "École Mohammadia d'Ingénieurs (EMI), Rabat", "en": "École Mohammadia d'Ingénieurs (EMI), Rabat" },
+      "year": "2024",
+      "detail": {
+        "fr": "Option Bâtiments, Ponts et Chaussées. Structures spéciales, béton précontraint, ponts, dynamique des structures et génie parasismique, éléments finis, constructions métalliques (CM66, Eurocode 3), béton armé, ouvrages géotechniques et fondations, infrastructures routières, hydraulique urbaine et assainissement, marchés publics, BIM.",
+        "en": "Buildings, Bridges and Roads track. Special structures, prestressed concrete, bridges, structural dynamics and earthquake engineering, finite elements, steel construction (CM66, Eurocode 3), reinforced concrete, geotechnical works and foundations, road infrastructure, urban hydraulics and drainage, public procurement, BIM."
+      }
+    },
+    {
+      "title": { "fr": "Classes Préparatoires aux Grandes Écoles (MP)", "en": "Preparatory Classes for Grandes Écoles (MP)" },
+      "school": { "fr": "Lycée Réda Slaoui, Agadir", "en": "Lycée Réda Slaoui, Agadir" },
+      "year": "2019 – 2021"
+    },
+    {
+      "title": { "fr": "Baccalauréat, série Sciences Mathématiques", "en": "Baccalaureate, Mathematical Sciences" },
+      "school": { "fr": "Guinée", "en": "Guinea" },
+      "year": "2019"
+    }
+  ],
+  "certifications": [
+    {
+      "group": { "fr": "BIM & automatisation", "en": "BIM & automation" },
+      "items": [
+        { "title": { "fr": "Building Smarter : le BIM en pratique (spécialisation, 3 modules)", "en": "Building Smarter: BIM in practice (specialisation, 3 modules)" }, "meta": { "fr": "L&T EduTech, Coursera · en cours", "en": "L&T EduTech, Coursera · in progress" } },
+        { "title": { "fr": "BIM Application for Engineers et BIM Fundamentals for Engineers", "en": "BIM Application for Engineers and BIM Fundamentals for Engineers" }, "meta": { "fr": "National Taiwan University, Coursera · 2023", "en": "National Taiwan University, Coursera · 2023" } },
+        { "title": { "fr": "Revit : mise en place du processus BIM interne, point de vue du BIM manager", "en": "Revit: setting up the in-house BIM process, the BIM manager's view" }, "meta": "LinkedIn Learning · 2023" },
+        { "title": "BIM et Dynamo for Revit, Master Class", "meta": "Udemy · 2023" },
+        { "title": { "fr": "L'essentiel de Dynamo · Revit Generative Design", "en": "Dynamo Essentials · Revit Generative Design" }, "meta": "LinkedIn Learning · 2024" }
+      ]
+    },
+    {
+      "group": { "fr": "Management de projet", "en": "Project management" },
+      "items": [
+        { "title": { "fr": "Construction Project Management (spécialisation, 5 modules)", "en": "Construction Project Management (specialisation, 5 modules)" }, "meta": { "fr": "Columbia University, Coursera · en cours", "en": "Columbia University, Coursera · in progress" } },
+        { "title": { "fr": "Les fondements de la gestion de projet, la conduite de projets", "en": "Project Management Foundations, leading projects" }, "meta": { "fr": "LinkedIn Learning, agréé PMI · 2026", "en": "LinkedIn Learning, PMI-approved · 2026" } }
+      ]
+    },
+    {
+      "group": { "fr": "Calcul & structures", "en": "Design & structures" },
+      "items": [
+        { "title": "Autodesk Revit & Robot Structural Analysis, Sheets & BOQ", "meta": "Udemy · 2025" },
+        { "title": "FEM, Linear, Nonlinear Analysis & Post-Processing", "meta": "Coursera · 2023" }
+      ]
+    },
+    {
+      "group": { "fr": "Formations internes JESA", "en": "JESA internal training" },
+      "items": [
+        { "title": { "fr": "21 formations suivies en deux ans : calcul dynamique et EC8, fondations d'équipements sous charges dynamiques, charges de vent et sismiques (ASCE 7), philosophie de conception des pipe racks, spécifications béton et anti-acide, standardisation des plans, protection anticorrosion des structures métalliques, lecture d'isométriques Piping, sustainability in design, empowering construction engineering.", "en": "21 courses over two years: dynamic analysis and EC8, dynamic analysis of equipment foundations, wind and seismic loads (ASCE 7), pipe rack design philosophy, concrete and anti-acid specifications, drawing standardisation, corrosion protection of steel structures, Piping isometric reading, sustainability in design, empowering construction engineering." } }
+      ]
+    }
+  ]
+}

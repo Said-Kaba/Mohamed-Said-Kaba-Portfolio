@@ -1,0 +1,53 @@
+{
+  "name": "Mohamed Said Kaba",
+  "photo": "assets/img/photo.jpg",
+  "location": { "fr": "Casablanca, Maroc · Mobilité internationale", "en": "Casablanca, Morocco · Open to international assignments" },
+  "contact": {
+    "email": "saidkaba229mohamed@gmail.com",
+    "phone": "+212 710 911 852",
+    "linkedin": "https://www.linkedin.com/in/mohamed-said-kaba",
+    "linkedinLabel": "linkedin.com/in/mohamed-said-kaba",
+    "github": "https://github.com/Said-Kaba",
+    "githubLabel": "github.com/Said-Kaba"
+  },
+  "cv": { "fr": "cv/CV_Mohamed_Said_Kaba_FR.pdf", "en": "cv/CV_Mohamed_Said_Kaba_EN.pdf" },
+  "sections": [
+    { "id": "accueil" },
+    { "id": "apropos", "label": { "fr": "À propos", "en": "About" } },
+    { "id": "projets", "label": { "fr": "Réalisations", "en": "Projects" } },
+    { "id": "outils", "label": { "fr": "Outils", "en": "Tools" } },
+    { "id": "competences", "label": { "fr": "Compétences", "en": "Skills" } },
+    { "id": "formation", "label": { "fr": "Formation", "en": "Education" } },
+    { "id": "videos", "label": { "fr": "Vidéos", "en": "Videos" }, "enabled": false },
+    { "id": "contact", "label": { "fr": "Contact", "en": "Contact" } }
+  ],
+  "ui": {
+    "heroEyebrow": { "fr": "Ingénierie des structures & outils numériques", "en": "Structural engineering & digital tools" },
+    "cv": { "fr": "Télécharger mon CV", "en": "Download my CV" },
+    "contactCta": { "fr": "Me contacter", "en": "Get in touch" },
+    "n_apropos": { "fr": "À propos", "en": "About" },
+    "h_apropos": { "fr": "Un parcours entre calcul de structures et automatisation", "en": "A path between structural design and automation" },
+    "n_projets": { "fr": "Réalisations", "en": "Projects" },
+    "h_projets": { "fr": "Projets et missions", "en": "Projects & assignments" },
+    "n_outils": { "fr": "Outils & applications", "en": "Tools & applications" },
+    "h_outils": { "fr": "Les outils que j'ai développés", "en": "The tools I built" },
+    "demoSoon": { "fr": "Démonstration à venir", "en": "Demo coming soon" },
+    "n_competences": { "fr": "Compétences", "en": "Skills" },
+    "h_competences": { "fr": "Compétences & logiciels", "en": "Skills & software" },
+    "n_formation": { "fr": "Formation", "en": "Education" },
+    "h_formation": { "fr": "Formation et certifications", "en": "Education & certifications" },
+    "h_diplomes": { "fr": "Diplômes", "en": "Degrees" },
+    "h_certs": { "fr": "Certifications & spécialisations", "en": "Certifications & specialisations" },
+    "n_videos": { "fr": "Vidéos", "en": "Videos" },
+    "channel": { "fr": "Voir la chaîne", "en": "Visit the channel" },
+    "watch": { "fr": "Regarder", "en": "Watch" },
+    "n_contact": { "fr": "Contact", "en": "Contact" },
+    "h_contact": { "fr": "Travaillons ensemble", "en": "Let's work together" },
+    "contactLead": { "fr": "Un projet de structures, un appel d'offres, un outil à automatiser : écrivez-moi.", "en": "A structural project, a tender, a workflow to automate: get in touch." },
+    "phone": { "fr": "Téléphone", "en": "Phone" },
+    "writeMe": { "fr": "M'écrire par email", "en": "Send me an email" },
+    "mailSubject": { "fr": "Prise de contact via votre portfolio", "en": "Contact via your portfolio" },
+    "footer": { "fr": "Ingénieur Génie Civil & Structures", "en": "Civil & Structural Engineer" },
+    "top": { "fr": "Haut de page", "en": "Back to top" }
+  }
+}
