@@ -76,8 +76,8 @@ window.SITE.site = {
   ],
   "ui": {
     "heroEyebrow": {
-      "fr": "Ingénierie des structures & outils numériques",
-      "en": "Structural engineering & digital tools"
+      "fr": "Ingénierie civile · BIM · Outils numériques",
+      "en": "Civil engineering · BIM · Digital tools"
     },
     "cv": {
       "fr": "Télécharger mon CV",
@@ -182,6 +182,10 @@ window.SITE.site = {
     "top": {
       "fr": "Haut de page",
       "en": "Back to top"
+    },
+    "seeWork": {
+      "fr": "Voir mes réalisations",
+      "en": "See my work"
     }
   }
 };

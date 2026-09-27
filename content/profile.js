@@ -15,28 +15,32 @@ window.SITE.profile = {
       "label": {
         "fr": "ans chez JESA (OCP / Worley)",
         "en": "years at JESA (OCP / Worley)"
-      }
+      },
+      "icon": "plant"
     },
     {
       "value": "50+",
       "label": {
         "fr": "plans d'exécution et notes de calcul suivis",
         "en": "execution drawings and calculation notes handled"
-      }
+      },
+      "icon": "doc"
     },
     {
       "value": "15+",
       "label": {
-        "fr": "structures industrielles étudiées",
-        "en": "industrial structures designed"
-      }
+        "fr": "structures étudiées (béton armé et charpente métallique)",
+        "en": "structures designed (reinforced concrete and steel)"
+      },
+      "icon": "building"
     },
     {
       "value": "4",
       "label": {
-        "fr": "initiatives digitales JESA",
-        "en": "JESA digital initiatives"
-      }
+        "fr": "outils et initiatives numériques JESA",
+        "en": "JESA digital tools and initiatives"
+      },
+      "icon": "gear"
     }
   ],
   "about": {
@@ -110,5 +114,106 @@ window.SITE.profile = {
         "en": "Medina Royal Mansour, Marrakech"
       }
     }
-  ]
+  ],
+  "hero": {
+    "chips": [
+      {
+        "title": {
+          "fr": "Industriel",
+          "en": "Industrial"
+        },
+        "sub": {
+          "fr": "OCP · JESA",
+          "en": "OCP · JESA"
+        }
+      },
+      {
+        "title": {
+          "fr": "Bâtiments",
+          "en": "Buildings"
+        },
+        "sub": {
+          "fr": "Médina Royal Mansour · Cap Ingénierie",
+          "en": "Medina Royal Mansour · Cap Ingénierie"
+        }
+      },
+      {
+        "title": {
+          "fr": "BIM & Automatisation",
+          "en": "BIM & Automation"
+        },
+        "sub": {
+          "fr": "Revit · Dynamo · API Robot · Python",
+          "en": "Revit · Dynamo · Robot API · Python"
+        }
+      }
+    ],
+    "band": [
+      {
+        "icon": "calc",
+        "title": {
+          "fr": "Calculs & structures",
+          "en": "Design & structures"
+        },
+        "sub": {
+          "fr": "Béton armé, charpente métallique",
+          "en": "Reinforced concrete, steel"
+        }
+      },
+      {
+        "icon": "doc",
+        "title": {
+          "fr": "Plans & appels d'offres",
+          "en": "Drawings & tenders"
+        },
+        "sub": {
+          "fr": "Notes de calcul, BOQ, TBE",
+          "en": "Calculation notes, BOQ, TBE"
+        }
+      },
+      {
+        "icon": "cube",
+        "title": {
+          "fr": "BIM & maquette numérique",
+          "en": "BIM & digital model"
+        },
+        "sub": {
+          "fr": "Revit, Navisworks",
+          "en": "Revit, Navisworks"
+        }
+      },
+      {
+        "icon": "code",
+        "title": {
+          "fr": "Automatisation",
+          "en": "Automation"
+        },
+        "sub": {
+          "fr": "Dynamo, VBA, API Revit et Robot",
+          "en": "Dynamo, VBA, Revit and Robot APIs"
+        }
+      },
+      {
+        "icon": "people",
+        "title": {
+          "fr": "Chantier & coordination",
+          "en": "Site & coordination"
+        },
+        "sub": {
+          "fr": "Interfaces multi-disciplines",
+          "en": "Multi-discipline interfaces"
+        }
+      }
+    ],
+    "signature": {
+      "fr": [
+        "Des idées aux structures.",
+        "Des outils aux résultats."
+      ],
+      "en": [
+        "From ideas to structures.",
+        "From tools to results."
+      ]
+    }
+  }
 };
