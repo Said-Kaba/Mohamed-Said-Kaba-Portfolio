@@ -40,8 +40,8 @@ window.SITE.tools = {
         "en": "JESA"
       },
       "name": {
-        "fr": "Outil paramétrique J-EMS — fondations annulaires de réservoirs",
-        "en": "J-EMS parametric tool — annular tank foundations"
+        "fr": "Outil paramétrique J-EMS : fondations annulaires de réservoirs",
+        "en": "J-EMS parametric tool : annular tank foundations"
       },
       "badge": {
         "fr": "Cas pilote J-EMS",
@@ -64,8 +64,8 @@ window.SITE.tools = {
         "en": "JESA"
       },
       "name": {
-        "fr": "JESA Takeoffs — extraction automatique des quantités",
-        "en": "JESA Takeoffs — automated quantity extraction"
+        "fr": "JESA Takeoffs : extraction automatique des quantités",
+        "en": "JESA Takeoffs : automated quantity extraction"
       },
       "summary": {
         "fr": "Plug-in Revit d'extraction automatique des quantités depuis la maquette BIM, au service des métrés et du chiffrage. Né de mon projet de fin d'études et poursuivi par JESA comme initiative interne.",
@@ -84,8 +84,8 @@ window.SITE.tools = {
         "en": "JESA"
       },
       "name": {
-        "fr": "J-Bid — plateforme de gestion des appels d'offres",
-        "en": "J-Bid — bid management platform"
+        "fr": "J-Bid : plateforme de gestion des appels d'offres",
+        "en": "J-Bid : bid management platform"
       },
       "summary": {
         "fr": "Contribution au développement de la plateforme numérique interne de gestion et d'analyse des appels d'offres (JESA Bid Analysis Platform).",

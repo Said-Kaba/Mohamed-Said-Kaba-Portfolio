@@ -26,7 +26,7 @@ window.SITE.education = {
         "fr": "Lycée Réda Slaoui, Agadir",
         "en": "Lycée Réda Slaoui, Agadir"
       },
-      "year": "2019 – 2021"
+      "year": "2019 - 2021"
     },
     {
       "title": {

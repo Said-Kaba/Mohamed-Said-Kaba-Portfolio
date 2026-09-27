@@ -60,8 +60,8 @@ window.SITE.profile = {
   "timeline": [
     {
       "when": {
-        "fr": "2019 – 2021",
-        "en": "2019 – 2021"
+        "fr": "2019 - 2021",
+        "en": "2019 - 2021"
       },
       "what": {
         "fr": "Classes préparatoires scientifiques (MP)",
@@ -74,8 +74,8 @@ window.SITE.profile = {
     },
     {
       "when": {
-        "fr": "2021 – 2024",
-        "en": "2021 – 2024"
+        "fr": "2021 - 2024",
+        "en": "2021 - 2024"
       },
       "what": {
         "fr": "Ingénieur d'État en Génie Civil",
@@ -88,8 +88,8 @@ window.SITE.profile = {
     },
     {
       "when": {
-        "fr": "Août 2024 – Juillet 2026",
-        "en": "Aug 2024 – Jul 2026"
+        "fr": "Août 2024 - Juillet 2026",
+        "en": "Aug 2024 - Jul 2026"
       },
       "what": {
         "fr": "Civil & Structural Engineer, JESA",

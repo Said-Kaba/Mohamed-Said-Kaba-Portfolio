@@ -13,8 +13,8 @@ window.SITE.projects = {
         "en": "Cap Ingénierie International"
       },
       "title": {
-        "fr": "Médina Royal Mansour — résidentiel haut standing",
-        "en": "Medina Royal Mansour — high-end residential"
+        "fr": "Médina Royal Mansour : résidentiel haut standing",
+        "en": "Medina Royal Mansour : high-end residential"
       },
       "period": {
         "fr": "Depuis sept. 2026",
@@ -61,8 +61,8 @@ window.SITE.projects = {
         "en": "OCP Group industrial projects"
       },
       "period": {
-        "fr": "Août 2024 – Juillet 2026",
-        "en": "Aug 2024 – Jul 2026"
+        "fr": "Août 2024 - Juillet 2026",
+        "en": "Aug 2024 - Jul 2026"
       },
       "place": {
         "fr": "Casablanca",
@@ -110,8 +110,8 @@ window.SITE.projects = {
         "en": "Stadium steel dome roof and G+4 residential building"
       },
       "period": {
-        "fr": "2022 – 2023",
-        "en": "2022 – 2023"
+        "fr": "2022 - 2023",
+        "en": "2022 - 2023"
       },
       "place": {
         "fr": "Rabat / Témara",
@@ -133,8 +133,8 @@ window.SITE.projects = {
         "en": "TGCC"
       },
       "title": {
-        "fr": "Chantier Al Jinane — hôtel et centre commercial",
-        "en": "Al Jinane site — hotel and shopping centre"
+        "fr": "Chantier Al Jinane : hôtel et centre commercial",
+        "en": "Al Jinane site : hotel and shopping centre"
       },
       "period": {
         "fr": "2022",
@@ -186,8 +186,8 @@ window.SITE.projects = {
         "en": "BET MEP"
       },
       "title": {
-        "fr": "Route RP420 — élargissement et renforcement",
-        "en": "RP420 road — widening and strengthening"
+        "fr": "Route RP420 : élargissement et renforcement",
+        "en": "RP420 road : widening and strengthening"
       },
       "period": {
         "fr": "2022",
