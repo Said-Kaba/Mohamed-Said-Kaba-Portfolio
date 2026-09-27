@@ -1,4 +1,4 @@
-# Portfolio — Mohamed Said Kaba
+# Portfolio : Mohamed Said Kaba
 
 Site statique (HTML/CSS/JS, sans build) bilingue FR/EN. Tout le contenu est dans `content/*.js`, le code n'a pas besoin d'être touché pour mettre le site à jour.
 
@@ -30,4 +30,4 @@ Adresse : https://said-kaba.github.io/Mohamed-Said-Kaba-Portfolio/
 
 ## Règle de rédaction
 
-Ne rien affirmer sans fait concret (chiffre, projet, outil nommé). Dates réelles : JESA août 2024 – juillet 2026, Cap Ingénierie depuis septembre 2026.
+Ne rien affirmer sans fait concret (chiffre, projet, outil nommé). Dates réelles : JESA août 2024 - juillet 2026, Cap Ingénierie depuis septembre 2026.

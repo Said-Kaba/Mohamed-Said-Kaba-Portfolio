@@ -1,4 +1,4 @@
-/* Portfolio — Mohamed Said Kaba
+/* Portfolio : Mohamed Said Kaba
  * Tout le contenu vit dans /content/*.js (textes bilingues {fr, en}).
  * Ce fichier ne fait que l'afficher. Voir README.md pour ajouter un projet ou un outil.
  * Le titre de l'onglet se change dans la balise <title> de index.html.
@@ -232,7 +232,7 @@
       return el('div', { class: 'cert-group' }, [
         el('h3', { text: t(c.group) }),
         el('ul', null, c.items.map(function (i) {
-          return el('li', null, [t(i.title), i.meta ? el('em', { text: ' — ' + t(i.meta) }) : null]);
+          return el('li', null, [t(i.title), i.meta ? el('em', { text: ' : ' + t(i.meta) }) : null]);
         }))
       ]);
     });
@@ -321,7 +321,7 @@
     place.appendChild(icon('pin', 'place-ico'));
     place.appendChild(el('span', { text: t(S.location) }));
     document.querySelectorAll('.lang button').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.lang === lang)); });
-    document.getElementById('footer-text').textContent = '© ' + new Date().getFullYear() + ' ' + S.name + ' — ' + t(S.ui.footer);
+    document.getElementById('footer-text').textContent = '© ' + new Date().getFullYear() + ' ' + S.name + ' · ' + t(S.ui.footer);
     document.getElementById('footer-top').textContent = t(S.ui.top) + ' ↑';
     checkCv();
     reveal();
